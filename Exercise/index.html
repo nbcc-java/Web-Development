@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,intial-scale=1.0">
+	<title>论坛管理系统</title>
+
+
+	<script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+	<script type="text/javascript" src="http://cdn.bootcss.com/twitter-bootstrap/3.0.2/js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.2/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="header">
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">
+				<!--设置标题-->
+				<a href="#" class="navbar-brand">论坛管理系统</a>
+			</div>
+
+			<div class="collapse navbar-collapse">
+
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">内容审核</a></li>
+					<li><a href="#">论坛管理</a></li>
+					<li><a href="#">数据统计</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<form action="" class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="搜索">
+								<button class="btn btn-default hidden" type="submit"></button>
+							</div>
+						</form>
+					</li>
+					<li><a href="#">为度消息<span class="badge">5</span></li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown">
+							Admin_one<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">我删除的条目</a></li>
+							<li><a href="#">我修改的条目</a></li>
+							<li><a href="#">我恢复的条目</a></li>
+							<li class="divider"></li>
+							<li><a href="#">注销</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div> 
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+				<div class="list-group">
+					<a href="#" class="list-group-item">主贴审核</a>
+					<a href="#" class="list-group-item">回复审核</a>
+					<a href="#" class="list-group-item">用户管理</a>
+					<a href="#" class="list-group-item">版主审核</a>
+					<a href="#" class="list-group-item">主贴审核日志</a>
+					<a href="#" class="list-group-item">回复审核日志</a>
+					<a href="#" class="list-group-item">用户管理日志</a>
+				</div>
+			</div>
+
+
+			<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4>主贴审核</h4>
+						<div class="form-group"><span>全选<input type="checkbox"></span>
+							<button class="btn btn-success">通过</button>
+							<button class="btn btn-primary">恢复</button>
+							<button class="btn btn-danger">删除</button>
+							<ul class="pagination visible-md visible-lg visible-sm" id="page-right">
+								<li><a href="#">&laquo;</a></li>
+								<li class="active"><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#">&laquo;</a></li>
+							</ul>
+						</div>
+
+					</div>
+
+					<div class="panel-body">
+						<table class="table">
+							<tr>
+								<th></th>
+								<th>审核状态</th>
+								<th>标题</th>
+								<th>作者</th>
+								<th>创建时间</th>
+								<th>详情</th>
+							</tr>
+							<tr>
+								<td><input type="checkbox"/></td>	
+								<td><span class="label label-default">未审核</span></td>
+								<td><a href="#">战士输出装备问题探讨</a></td>
+								<td><a href="#">庇护保佑</a></td>
+								<td>2015年8月1日 13:13</td>
+								<td><a href="#collapse1" class="detail-link" data-toggle="collapse" data-parent="#accordion">
+									<span class="glyphicon glyphicon-chevron-down"></span>
+								</a> </td>
+							</tr>
+							<tr id="collapse1" class="collapse">
+								<td colspan="10">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quaerat, maxime est tempora. Repellendus reiciendis inventore maiores itaque. Laudantium harum numquam praesentium repudiandae dolores impedit, fugit rem natus dolorem fugiat! Non, incidunt unde eum quasi nemo ipsam harum eligendi explicabo dolorem, repellendus earum nobis soluta ipsum voluptates consequuntur culpa recusandae sapiente animi cupiditate at. Obcaecati voluptate, enim delectus nulla necessitatibus fuga nihil voluptas molestiae maxime numquam, temporibus est cupiditate odit debitis magni consequuntur eum totam consequatur ipsam vel, similique eaque. Nobis suscipit, expedita voluptatibus quis eos accusantium earum vero est omnis dolorum doloremque animi amet deleniti repellendus sapiente commodi tenetur.
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

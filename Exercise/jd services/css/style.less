@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+//less库
+@import "less/z";
+@import "less/css3";
+
+.reset();
+*{
+	font :12px/150% Arial,Verdana,"宋体";
+	color:#666;
+}
+
+.mc{
+	width: 248px;
+	height: 208px;
+	border: 1px solid #ccc;
+	ul{
+		width: 260px;
+		height: 209px;
+		overflow: hidden;
+	}
+	ul li{
+		float:left;
+		display: inline-block;
+		width: 63px;
+		height: 70px;
+		border-bottom:1px solid #e8e8e7;
+		border-right:1px solid #e8e8e7;
+		a{
+			display: block;
+			padding-top: 41px;
+			height: 28px;
+			width: 62px;
+			cursor: pointer;
+			line-height: 28px;
+			text-align: center;
+		}
+		i{
+			background: url("../images/all.png") no-repeat;
+			display: block;
+			width: 25px;
+			height: 25px;
+			position: absolute;
+			left: 18px;
+			top:8px;
+		}
+		.i1{
+			background-position: 0px 0px;
+		}
+		.i2{
+			background-position: 0px -25px;
+		}
+		// .i3{
+		// 	background-position: 0px -50px;
+		// }
+
+	}
+
+
+}

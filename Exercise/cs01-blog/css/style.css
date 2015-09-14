@@ -107,9 +107,35 @@ h2{
 	border :1px solid #06515A;
 }
 
-/*.image-section{
+.image-section{
 	width: 45%;
 }
 .image-section img{
 	width:100%;
-}*/
+}
+.text-section{
+	width: 50%;
+	position: relative;
+	left:60px;
+	top:148px;
+}
+.article-preview{
+	background-color: #143F53;
+	color:#fff;
+}
+.article-preview>div{
+	float:left;
+}
+.article-preview:after{
+	content:'';
+	display: block;
+	clear:both;
+}
+.text-section h2{
+	margin-bottom: 20px;
+	text-align: center;
+}
+.text-section p{
+	font-size: 18px;
+	line-height: 1.2em;
+}

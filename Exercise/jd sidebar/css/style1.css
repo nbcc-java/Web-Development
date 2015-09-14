@@ -1,0 +1,68 @@
+@charset "utf-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  font-style: normal;
+  color: #fff;
+  text-decoration: none;
+}
+.outer {
+  width: 980px;
+  height: 1000px;
+  border: solid 1px #ccc;
+}
+.jd-toolbar-footer {
+  position: fixed;
+  bottom: 0px;
+  right: 35px;
+}
+.j-trigger-tab {
+  background-color: #7a6e6e;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  height: 35px;
+  width: 35px;
+  margin-bottom: 1px;
+  position: relative;
+}
+.j-trigger-tab .tab-ico {
+  background: url("../images/jdm-toolbar-icons.png") left top no-repeat;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+}
+.j-trigger-tab .tab-text {
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  top: 0;
+  left: 35px;
+  -webkit-transition: left 0.3s ease-in-out 0.1s;
+  -moz-transition: left 0.3s ease-in-out 0.1s;
+  -o-transition: left 0.3s ease-in-out 0.1s;
+  transition: left 0.3s ease-in-out 0.1s;
+  height: 35px;
+  width: 50px;
+  z-index: 1;
+}
+.j-trigger-tab:hover .tab-ico,
+.j-trigger-tab:hover .tab-text {
+  background-color: #C81623;
+}
+.j-trigger-tab:hover .tab-text {
+  left: -48px;
+}
+.j-tab-top .tab-ico {
+  background-position: -50px -250px;
+}
+.j-tab-feedback .tab-ico {
+  background-position: -50px -300px;
+}

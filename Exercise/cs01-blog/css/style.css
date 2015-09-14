@@ -115,9 +115,10 @@ h2{
 }
 .text-section{
 	width: 50%;
-	position: relative;
+	/*position: relative;
 	left:60px;
-	top:148px;
+	top:148px;*/
+	padding: 120px 30px;
 }
 .article-preview{
 	background-color: #143F53;
@@ -138,4 +139,9 @@ h2{
 .text-section p{
 	font-size: 18px;
 	line-height: 1.2em;
+	width: 80%;
+	margin: 0 auto;
+}
+.article-preview .fr{
+	float: right;
 }

@@ -1,0 +1,78 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  border: none;
+}
+input,
+select,
+textarea {
+  outline: none;
+  border: none;
+  background: none;
+}
+textarea {
+  resize: none;
+}
+a {
+  text-decoration: none;
+}
+* {
+  font: 12px/150% Arial, Verdana, "宋体";
+  color: #666;
+}
+.mc {
+  width: 248px;
+  height: 208px;
+  border: 1px solid #ccc;
+}
+.mc ul {
+  width: 260px;
+  height: 209px;
+  overflow: hidden;
+}
+.mc ul li {
+  float: left;
+  display: inline-block;
+  width: 63px;
+  height: 70px;
+  border-bottom: 1px solid #e8e8e7;
+  border-right: 1px solid #e8e8e7;
+}
+.mc ul li a {
+  display: block;
+  padding-top: 41px;
+  height: 28px;
+  width: 62px;
+  cursor: pointer;
+  line-height: 28px;
+  text-align: center;
+  position: relative;
+}
+.mc ul li i {
+  background: url("../images/all.png") no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 18px;
+  top: 8px;
+}
+.mc ul li .i1 {
+  background-position: 0px 0px;
+}
+.mc ul li .i2 {
+  background-position: 0px -25px;
+}
+.mc ul li .i3 {
+  background-position: 0px -50px;
+}
+.mc ul li .i4 {
+  background-position: 0px -75px;
+}
+

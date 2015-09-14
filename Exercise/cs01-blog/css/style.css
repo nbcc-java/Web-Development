@@ -1,9 +1,13 @@
 @charset "utf-8";
-
+body{
+	color:#fff;
+}
 a{
 	text-decoration: none;
 }
-
+h1{
+	font-size: 40px;
+}
 nav{
 	background-color: #ccc;
 	height: 50px;
@@ -50,6 +54,7 @@ ul li a{
 .sub-heading{
 	line-height: 30px;
 	margin: 30px;
+	font-size: 18px;
 }
 button{
 	border: none;
@@ -61,3 +66,50 @@ button{
 	margin-top: 280px;
 }
 
+.wrapper{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.green-section{
+	text-align: center;
+	background-color: #089DB0;
+	color:#FFF;
+	padding: 100px 0;
+}
+h2{
+	font-size: 30px;
+}
+.green-section h2{
+	margin-bottom: 30px;
+}
+
+.hr{
+	width: 100%;
+	height: 2px;
+}
+.green-section .hr{
+	background-color: #0B8D9E;
+	margin: 10px auto;
+	width: 60%;
+}
+.green-section .icon-group{
+	margin-top: 60px;
+}
+.green-section .icon-group .icon{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	margin: 20px;
+	border :1px solid #06515A;
+}
+
+/*.image-section{
+	width: 45%;
+}
+.image-section img{
+	width:100%;
+}*/

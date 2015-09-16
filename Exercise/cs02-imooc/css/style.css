@@ -38,7 +38,36 @@ header{
 	line-height: 60px;
 	text-align: center;
 }
-.hd-nav li a:hover{
+header li a:hover{
 	background-color: #363c41;
 	color:#fff;
+}
+
+.login-area{
+	float: right;
+}
+.login-area ul li{
+	float: left;
+
+}
+.login-area ul li a{
+	display: block;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+.my_message a{
+	background: url(../images/icon_msg.png) no-repeat center center;
+}
+.user_card a{
+}
+.user_card img{
+	/*display: block;*/
+	display: inline-block;
+	border-radius: 22px;
+	width: 28px;
+	height: 28px;
+	/*line-height: 60px;*/
+	vertical-align: middle;
 }

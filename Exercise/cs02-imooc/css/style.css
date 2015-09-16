@@ -1,9 +1,21 @@
 @charset "utf-8";
-
+body{
+	font-family: "Helvetica Neue","Hiragino Sans GB","Segoe UI","Microsoft Yahei","微软雅黑",Tahoma,Arial,STHeiti,sans-serif;
+}
 header{
 	height: 60px;
 	background-color: #000;
 }
 .logo{
 	margin:0 20px;
+	width: 140px;
+}
+.logo a{
+	display: block;
+	background: url(../images/logo.png) center center no-repeat;
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	height: 60px;
+	line-height: 60px;
 }

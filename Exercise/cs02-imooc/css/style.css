@@ -184,7 +184,6 @@ header li a:hover,.app-down a:hover{
 	margin: 0 auto;
 }
 .characters-wrap{
-	/*width: 1200px;*/
 	padding: 50px 120px;
 	height: 183px;
 	position: relative;
@@ -218,4 +217,135 @@ header li a:hover,.app-down a:hover{
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
+}
+
+.bg-grey{
+	background-color: #eef1f2;
+}
+.bg-white{
+	background-color: #fff;
+}
+.intro1-wrap{
+	height: 400px;
+	position: relative;
+}
+.intro1-star{
+	position: absolute;
+	left: -15px;
+	top: -20px;
+	background: url("../images/01-star.png") no-repeat top left;
+	width: 581px;
+	height: 431px;
+	z-index: 10;
+}
+.intro1-video{
+	position: absolute;
+	width: 581px;
+	height: 431px;
+	background: url("../images/01-video.png") 0 0 no-repeat;
+	left: -15px;
+	bottom: 0px;
+	z-index: 5;
+}
+.intro1-text{
+	position: absolute;
+	width: 493px;
+	height: 70px;
+	right: 105px;
+	top: 164px;
+	background: url("../images/01-text.png") 0 0 no-repeat;
+
+}
+
+.intro2-wrap{
+	height: 400px;
+	position: relative;
+}
+.intro2-text{
+	width: 512px;
+	height: 70px;
+	position: absolute;
+	left: 105px;
+	top: 165px;
+	background:  url("../images/02-text.png") 0 0 no-repeat;
+}
+.intro2-computer{
+	background:  url("../images/02-computer2.png") 0 0 no-repeat;
+	position: absolute;
+	top: -30px;
+	width: 580px;
+	height: 430px;
+	right: 0;
+}
+
+.intro3-wrap{
+	height: 400px;
+	position: relative;
+}
+.intro3-calendar{
+	background:  url("../images/03-calendar.png") 0 0 no-repeat;
+	position: absolute;
+	left: 0px;
+	top:-31px;
+	width: 581px;
+	height: 431px;
+	z-index: 1;
+}
+.intro3-text{
+	position: absolute;
+	right:165px ;
+	width: 476px;
+	height: 70px;
+	top: 165px;
+	background:  url("../images/03-text.png") 0 0 no-repeat;
+}
+.intro3-smoke{
+	background:  url("../images/03-smoke.png") 0 0 no-repeat;
+	position: absolute;
+	left: 0px;
+	top: -31px;
+	width: 581px;
+	height: 431px;
+	z-index:2 ;
+}
+.intro3-rockets{
+	background:  url("../images/03-rockets.png") 0 0 no-repeat;
+	position: absolute;
+	left: 0px;
+	top: -46px;
+	width: 581px;
+	height: 431px;
+	z-index:3 ;
+}
+
+.intro4-wrap{
+	height: 400px;
+	position: relative;
+}
+.intro4-text{
+	background: url("../images/04-text.png") 0 0 no-repeat;
+	height: 70px;
+	width: 422px;
+	position: absolute;
+	left: 146px;
+	top: 165px;
+	z-index: 1;
+}
+.intro4-hand{
+	background:  url("../images/04-hand.png") 0 0 no-repeat;
+	height: 430px;
+	width: 581px;
+	right: 0;
+	top: -30px;
+	position: absolute;
+	z-index: 5;
+}
+.intro4-icon{
+	background: url("../images/04-icon.png") 0 0 no-repeat;
+	height: 430px;
+	width: 581px;
+	right: 0;
+	top: -30px;
+	position: absolute;
+	z-index: 10;
 }

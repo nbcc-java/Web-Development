@@ -38,13 +38,14 @@ header{
 	line-height: 60px;
 	text-align: center;
 }
-header li a:hover{
+header li a:hover,.app-down a:hover{
 	background-color: #363c41;
 	color:#fff;
 }
 
 .login-area{
 	float: right;
+	margin-right: 20px;
 }
 .login-area ul li{
 	float: left;
@@ -70,4 +71,70 @@ header li a:hover{
 	height: 28px;
 	/*line-height: 60px;*/
 	vertical-align: middle;
+}
+
+.r{
+	float:right;
+}
+.l{
+	float:left;
+}
+.app-down{
+	width: 87px;
+	height: 60px;
+}
+.app-down a{
+	display: block;
+	height: 60px;
+	color:#656e73;
+	line-height: 60px;
+	padding: 0 8px;
+	font-size: 14px;
+	white-space: nowrap;
+}
+.app-down a:hover .app-icon{
+	background-position: 0px -16px;
+}
+
+.app-icon{
+	background: url("../images/head-app-icon.png") no-repeat top left ;
+	display: inline-block;
+	width: 11px;
+	height: 16px;
+	vertical-align: -3px;
+	margin-right: 5px;
+	/*-webkit-transition-property: all 0.3s ease 0s;
+	-moz-transition-property: all 0.3s ease 0s;
+	-ms-transition-property: all 0.3s ease 0s;
+	-o-transition-property: all 0.3s ease 0s;
+	transition-property: all 0.3s ease 0s;*/
+	
+}
+
+.search-area{
+	width: 240px;
+	height: 30px;
+	background-color: #363c41 ;
+	margin: 15px 20px 15px 0;
+}
+.search-input{
+	background-color: #363c41;
+	border:none;
+	color: #14191e;
+	height: 20px;
+	line-height: 20px;
+	padding: 5px 10px;
+	width: 190px;
+}
+.search-input:hover{
+	background-color: #fff;
+	color:#363d40;
+}
+.btn-search{
+	float: right;
+	width: 30px;
+	height: 30px;
+	background: url("../images/gsearch-sprite.png") no-repeat top left;
+	background-color: rgb(0,0,0,0);
+	border:none;
 }

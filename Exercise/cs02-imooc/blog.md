@@ -29,7 +29,8 @@
 			<a href="#">慕课APP</a>
 		</div>
 		<div class="search-area">
-			<input type="text" text="" />
+			<input type="text" text="请输入想搜索的内容..." value="123" class="search-input" />
+			<input type="button" class="btn-search" />
 		</div>
 	</header>
 ```
@@ -66,3 +67,45 @@
 >延伸阅读：[CSS vertical-align](http://www.zhangxinxu.com/wordpress/2010/05/%E6%88%91%E5%AF%B9css-vertical-align%E7%9A%84%E4%B8%80%E4%BA%9B%E7%90%86%E8%A7%A3%E4%B8%8E%E8%AE%A4%E8%AF%86%EF%BC%88%E4%B8%80%EF%BC%89/)
 
 最后，修改.hd-nav li a:hover样式选择器为 header li a:hover以适配这里的所有选项菜单链接情况。
+
+5.**制作app-down区域和搜索栏**
+
+**相关CSS**
+```
+.r{
+	float:right;
+}
+.l{
+	float:left;
+}
+.app-down{
+	width: 87px;
+	height: 60px;
+}
+.app-down a{
+	display: block;
+	height: 60px;
+	color:#656e73;
+	line-height: 60px;
+	padding: 0 8px;
+	font-size: 14px;
+	white-space: nowrap;
+}
+.app-down a:hover .app-icon{
+	background-position: 0px -16px;
+}
+
+.app-icon{
+	background: url("../images/head-app-icon.png") no-repeat top left ;
+	display: inline-block;
+	width: 11px;
+	height: 16px;
+	vertical-align: -3px;
+	margin-right: 5px;
+}
+```
+上述代码中，使用雪碧图head-app-icon.png实现鼠标悬浮效果。即鼠标处于hover时，改变背景图的坐标（background-position）以显示悬停的图片效果。app-down区域的链接a采用block块状显示，使用line-height:60px致使其中的文字处于垂直居中，使用padding-left，以腾出左侧图标显示区域，marin-right:5px用于控制图标和文字的显示间隔。Vertical-align用于图标控制垂直的位置。
+
+需要额外说明的是，为了更灵活地控制左右浮动效果，采用了自定义类`l和r`，在应用时使用类样式的叠加。
+
+在处理文本框时，去除文本框自带的边框效果，并使用自定义背景色和前景色。指定padding和line-height；并为文本框获取焦点时设置相应的背景效果。

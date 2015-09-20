@@ -15,5 +15,49 @@
 		……
 	</div>
 ```
-###相应的
+###构建相应CSS###
 ```css
+.hidden-text{
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.bg-grey{
+	background-color: #eef1f2;
+}
+.bg-white{
+	background-color: #fff;
+}
+.intro1-wrap{
+	height: 400px;
+	position: relative;
+}
+.intro1-star{
+	position: absolute;
+	left: -15px;
+	top: -20px;
+	background: url("../images/01-star.png") no-repeat top left;
+	width: 581px;
+	height: 431px;
+	z-index: 10;
+}
+.intro1-video{
+	position: absolute;
+	width: 581px;
+	height: 431px;
+	background: url("../images/01-video.png") 0 0 no-repeat;
+	left: -15px;
+	bottom: 0px;
+	z-index: 5;
+}
+.intro1-text{
+	position: absolute;
+	width: 493px;
+	height: 70px;
+	right: 105px;
+	top: 164px;
+	background: url("../images/01-text.png") 0 0 no-repeat;
+}
+```
+整个背景采用纯灰色和白色交替形式，为方便，将灰色和白色背景分别定义`bg-grey`和`bg-white`类，有了他们，在需要该样式的元素开始标签添加类样式进行叠加。为便于搜索引擎搜索，元素提供了图片文字的文字版本，为让他们不可见，使用`.hidden-text`样式隐藏图片文字。

@@ -29,7 +29,7 @@
 			<a href="#">慕课APP</a>
 		</div>
 		<div class="search-area">
-			<input type="text" text="请输入想搜索的内容..." value="123" class="search-input" />
+			<input type="text" value="请输入想搜索的内容..."  class="search-input" />
 			<input type="button" class="btn-search" />
 		</div>
 	</header>
